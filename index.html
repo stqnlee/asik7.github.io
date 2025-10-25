@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Assignment #7</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>ASIK 7</h1>
+        <section class="part">
+            <h2>content changer</h2>
+            <div class="task">
+                <button id="change-content">change content</button>
+                <p id="id-selector">text by ID</p>
+                <p class="class-selector">text by class</p>
+                <div class="tag-example">text by tag</div>
+            </div>
+        </section>
+
+        <section class="part">
+            <h2>effects</h2>
+
+            <div class="task">
+                <button id="hide-btn">hide</button>
+                <button id="show-btn">show</button>
+                <button id="toggle-btn">toggle</button>
+                <p id="visibility-paragraph">random content..</p>
+            </div>
+
+            <div class="task">
+                <button id="fade-in-btn">fade in</button>
+                <button id="fade-out-btn">fade out</button>
+                <button id="fade-toggle-btn">fade toggle</button>
+                <img id="fade-image" src="vanish.JPG" alt="Fade Image">
+            </div>
+
+            <div class="task">
+                <button id="slide-up-btn">slide up</button>
+                <button id="slide-down-btn">slide down</button>
+                <button id="slide-toggle-btn">slide toggle</button>
+                <div id="collapsible-panel">another random content....</div>
+            </div>
+        </section>
+
+        <section class="part">
+            <h2>dom</h2>
+            <div class="task">
+                <button id="add-item">take a photo</button>
+                <button id="remove-item">remove photo</button>
+                <ul id="dynamic-list">
+                    <li>photo 1</li>
+                </ul>
+            </div>
+
+            <div class="task">
+                <button id="change-src">change src</button>
+                <img id="change-src-img" src="ma.JPG" alt="Change Src">
+                <br><br>
+                <button id="change-href">change href</button>
+                <a id="change-href-link" href="ma.JPG">link of photo 1</a>
+            </div>
+
+            <div class="task">
+                <form>
+                    <label for="name-input">name:</label>
+                    <input type="text" id="name-input"><br><br>
+                    <label for="email-input">email:</label>
+                    <input type="text" id="email-input"><br><br>
+                </form>
+                <p id="live-display">live input: </p>
+            </div>
+        </section>
+
+        <section class="part">
+            <h2>animation</h2>
+            <div id="square"></div>
+            <button id="basic-animate">basic animate</button>
+            <button id="sequential-animate">sequential animate</button>
+            <button id="combined-animate">combined animate</button>
+        </section>
+
+        <section class="part">
+            <h2>mini project</h2>
+            <div class="gallery">
+                <img class="gallery-thumbnail" src="arla.JPG" alt="Thumbnail 1">
+                <img class="gallery-thumbnail" src="dirol.JPG" alt="Thumbnail 2">
+                <img class="gallery-thumbnail" src="nun.JPG" alt="Thumbnail 3">
+            </div>
+            <div id="overlay"></div>
+            <img id="enlarged-image" src="" alt="Enlarged Image">
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
