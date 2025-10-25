@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #8d8d8e;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #8d8d8e;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.part {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #f0f0f5;
+    border-radius: 8px;
+    border: 1px solid #cecbcb;
+}
+
+.task {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgb(96, 95, 95);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    background: #9f9fa0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #bbbdbe;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background: #777777;
+    position: relative;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-thumbnail {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s, opacity 0.3s;
+    border: 2px solid #dad3d3;
+}
+
+.gallery-thumbnail:hover {
+    transform: scale(1.05);
+    border-color: #656464;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: #161515cc;
+    z-index: 999;
+}
+
+#enlarged-image {
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+#collapsible-panel {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+#fade-image {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+#visibility-paragraph {
+    margin-top: 10px;
+}
+
+#dynamic-list {
+    margin-top: 10px;
+}
+
+#change-src-img {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+#change-href-link {
+    margin-top: 10px;
+    display: block;
+}
